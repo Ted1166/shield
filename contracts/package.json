@@ -1,5 +1,36 @@
 {
   "name": "contracts",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "description": "AI-Powered Autonomous Wallet Security for BNB Chain",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network arbitrum",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network arbitrumSepolia",
+    "verify": "hardhat verify --network arbitrumSepolia",
+    "node": "hardhat node",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "ai",
+    "security",
+    "arbitrumSepolia",
+    "defi",
+    "agent",
+    "autonomous"
+  ],
+  "author": "GuardDog Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.11",
+    "hardhat": "^2.22.17"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4"
+  }
 }

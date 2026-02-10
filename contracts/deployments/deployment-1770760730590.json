@@ -1,0 +1,15 @@
+{
+  "network": "arbitrumTestnet",
+  "chainId": 421614,
+  "deployer": "0x9E2d2c2522a904EF07DC61F88D189833476D4A58",
+  "timestamp": "2026-02-10T21:58:50.590Z",
+  "gasUsed": "4426602",
+  "contracts": {
+    "ThreatRegistry": "0xd7aE689Df7Cb38569aFeDC9e2E6690580249bf3F",
+    "GuardianVault": "0x3C9C5DD62E209fFd3E017BE7e06Ca42439f33A2f"
+  },
+  "verificationCommands": {
+    "ThreatRegistry": "npx hardhat verify --network arbitrumTestnet 0xd7aE689Df7Cb38569aFeDC9e2E6690580249bf3F 0x9E2d2c2522a904EF07DC61F88D189833476D4A58",
+    "GuardianVault": "npx hardhat verify --network arbitrumTestnet 0x3C9C5DD62E209fFd3E017BE7e06Ca42439f33A2f 0x9E2d2c2522a904EF07DC61F88D189833476D4A58"
+  }
+}
